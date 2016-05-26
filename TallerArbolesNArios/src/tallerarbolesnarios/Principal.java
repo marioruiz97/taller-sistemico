@@ -32,9 +32,11 @@ public class Principal {
         arbol.insertarNodo(10, 9);
         
         arbol.insertarNodo(15, 11);
+        arbol.insertarNodo(11, 26);
   
         arbol.mostrarArbolPpal();
         arbol.contarDatosPpal();
+        arbol.alturaArbolPpal();
         
     }  //fin main
 } // fin clase

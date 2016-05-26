@@ -115,6 +115,7 @@ public class TallerArbolesNArios {
     public void alturaArbolPpal() {
         int altura;
         altura = alturaArbol(raiz);
+        altura += 1;
         System.out.println("La altura del árbol es: " + altura);
     }
 
@@ -127,10 +128,8 @@ public class TallerArbolesNArios {
 
         if (p != null) {
 
-            if (p.obtenerSw() == 0) {
-                altura += 1;
-            } else {
-                altura = altura + alturaArbol(p.obtenerLigaHijo());
+            if (p.obtenerSw() == 1) {
+                altura = altura + alturaArbol(p.obtenerLigaHijo()) + 1;
             }
             altura = altura + alturaArbol(p.obtenerLiga());
         }
