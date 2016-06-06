@@ -28,12 +28,13 @@ public class Principal {
         arbol.insertarNodo(5, 15);
         arbol.insertarNodo(5, 20);
         
-        arbol.insertarNodo(10, 8);
+        /*arbol.insertarNodo(10, 8);
         arbol.insertarNodo(10, 9);
         
-        arbol.insertarNodo(15, 11);
+        arbol.insertarNodo(15, 11);*/
   
         arbol.mostrarArbolPpal();
+        arbol.alturaArbolPpal();
         arbol.contarDatosPpal();
         arbol.nivelDatoPpal();
        

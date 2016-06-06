@@ -1,0 +1,142 @@
+﻿commit 27f61126211648cf4b1074922f9899c701031dbc
+Author: Mario Ruiz <Marioarb.97@gmail.com>
+Date:   Thu May 26 00:19:26 2016 -0500
+
+    Cambios documentos y código
+
+    
+    1. Se crea la carpeta documentos en el repositorio
+    2. Se guardan PDF's sobre las páginas web del sitio de sistémico y la
+    explicación de árboles y sus clases listas generalizadas y nodo.
+
+        3. El documento con el enunciado del taller se sube a la carpeta.
+    4.  Se cambia el método nivel dato, todavía no funciona.
+
+
+
+commit 81b6841440a145b2a2a7097b3652ed04b20d69b5
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Wed May 25 14:02:29 2016 -0500
+
+    Documento con el problema
+
+    
+    Se añade a la carpeta del repositorio el documento de word con los
+    puntos del taller
+
+
+
+commit cc74c8801b2d2b29a96007c6a026040bfcbfa9a0
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Wed May 25 13:57:27 2016 -0500
+
+    Documento TallerArbolesNArios
+
+    
+    Se modifica el método nivel del dato
+
+
+
+commit 43d0aa61cb01fafb82e3ecab10a2b30aef82404c
+Merge: 239f00e 4938a9f
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Wed May 25 13:19:57 2016 -0500
+
+    Merge pull request #4 from marioruiz97/Creacion-Insertar
+    
+    Creacion insertar
+
+
+
+commit 4938a9f91a5bd3bd7baebb7a959fad62588ae8a5
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Wed May 25 12:56:41 2016 -0500
+
+    Modificación clase TallerArbolesNArios
+
+    
+    Se modifica la clase contar datos para que no quede en el loop.
+    Se cambia la sentencia while por un if (linea 103 -  if p! = null)
+
+
+
+commit 12aa1c734499dcf85ff0a16758ab29d6d325865c
+Author: Mario <Marioarb.97@gmail.com>
+Date:   Tue May 24 00:52:03 2016 -0500
+
+    Se crea el método insertar basándose del algoritmo del profesor.
+
+	Issue: Métodos no estáticos no pueden ser referenciados desde el main.
+    Solución: Se crea una nueva clase main llamada principal que crea un
+    objeto de la clase TallerArbolesNArios y 
+	llama sus métodos.
+    Issue: En el método mostrar árbol, parece que se queda en un loop ya que
+    se queda residente y no ejecuta los métodos que vienen despues.
+
+
+
+commit 239f00e4d95dd67cd6cd0bc72a9d9624212b392b
+Merge: 8675882 c22eff7
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Mon May 23 00:45:05 2016 -0500
+
+    Merge pull request #2 from marioruiz97/Creacion-clases
+    
+    Creación clases y métodos
+
+
+
+commit c22eff72882857c38a6edbf8a08d3f29f95af7f0
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Mon May 23 00:43:55 2016 -0500
+
+    Add files via upload
+    
+    
+	se crea el repositorio con los métodos mostrar arbol, contar datos, altura, mayor y nivel estos dos últimos sin saber si funcionan.... implementar insertar para saber si funcionan o prueba de escritorio exhaustiva
+
+
+
+commit 86758821e2c3670f96682fa8665adc82ac1fa61d
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Sun May 22 20:04:50 2016 -0500
+
+    Update README.md
+
+
+
+commit d2178d6df6e4115f8f37cd5b22a90940f62adb25
+Merge: affd73b bbc3f1e
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Sun May 22 19:59:28 2016 -0500
+
+    Merge pull request #1 from marioruiz97/creacion-de-clases-y-metodos
+    
+    Creacion de clases y metodos
+
+
+
+commit bbc3f1e3c84f56dc05a42a7d9dc4345f238e8223
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Sun May 22 19:56:21 2016 -0500
+
+    Finish README
+
+
+
+commit 73b433c7c81b1afd921f6a124a71f341a021188e
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Sun May 22 19:48:56 2016 -0500
+
+    Update README.md
+    
+    
+	Rama creada para las clases que contienen los atributos y metodos.. Agregar a master cuando esté listo además subir el archivo de word con el taller propuesto.
+
+
+
+commit affd73ba4112ff9d420414c58e94e738fc44ce0e
+Author: marioruiz97 <marioarb.97@gmail.com>
+Date:   Sun May 22 19:40:10 2016 -0500
+
+    Initial commit
